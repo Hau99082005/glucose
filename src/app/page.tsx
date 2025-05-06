@@ -89,7 +89,7 @@ export default function Home() {
       </div>
       <div className="max-w-4xl w-full mb-20 px-4 mx-auto flex flex-col md:flex-row items-center gap-10">
       <div className="flex-1">
-      <Image src={'/image/preview.jpg'}  alt="" className="rounded-lg shadow-lg w-full object-cover"
+      <Image src={'/image/download.jpg'}  alt="" className="rounded-lg shadow-lg w-full object-cover"
         width={200} height={200} 
        />
       </div>
@@ -125,6 +125,11 @@ export default function Home() {
       </div>
       </div>
     </div>
+    <section className="flex gap-2 w-full rounded-full">
+      <div className="mt-3">
+       <video src={'/image/app3.mp4'} controls style={{maxWidth: "100%", height: "auto"}}></video>
+      </div>
+    </section>
         <div className="max-w-2xl w-full mb-10 px-4 mx-auto">
           <h2 className="text-2xl font-bold mb-6 text-center" style={{fontSize: "25px", fontFamily: "Lato"}}>FAQs</h2>
           <Accordion type="single" collapsible>
